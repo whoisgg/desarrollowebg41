@@ -1,0 +1,24 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+.icon {
+  font-size: 40px;
+  font-weight: 600;
+}
+.cpurp {
+  background-color: #660066;
+}
+.navbar ul {
+  font-family: "Roboto";
+}
+#hero {
+  margin-top: 5.4rem;
+}
+.background {
+  background-image: url("../img/bg_hero.png");
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
