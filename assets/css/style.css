@@ -15,12 +15,12 @@ body {
   margin-top: 4rem;
 }
 .background {
-  background-image: url("../img/bg_hero.png");
-  height: 70vh;
+  background-image: url("../img/imggg2.png");
+  height: 73vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left;
 }
 .extralight {
   font-weight: 1;
@@ -30,4 +30,7 @@ body {
 .extrabold {
   font-weight: 700;
   font-size: 2.2rem;
+}
+.letterborder {
+  -webkit-text-stroke: 2px black;
 }
