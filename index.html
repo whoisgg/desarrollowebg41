@@ -7,11 +7,12 @@
 
     <!--Bootstrap 5-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -31,7 +32,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-0">
       <div class="container">
-        <p class="icon navbar-brand m-0">GG</p>
+        <p
+          class="icon navbar-brand m-0"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Gaspar Goycoolea Sone"
+        >
+          GG
+        </p>
 
         <button
           class="navbar-toggler"
@@ -50,7 +58,7 @@
           id="navbarNav"
         >
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#hero">Sobre mi</a>
             </li>
             <li class="nav-item">
@@ -73,9 +81,9 @@
       <div class="row">
         <div class="col-sm-12 px-0 background d-flex align-items-end">
           <div class="mx-auto">
-            <p class="text-center display-1 text-light letterborder">YO SOY</p>
+            <p class="text-center display-4 text-light letterborder">YO SOY</p>
             <p
-              class="text-center display-1 text-light extrabold letterborder line"
+              class="text-center display-4 text-light extrabold letterborder line"
             >
               GASPAR
             </p>
@@ -132,7 +140,8 @@
     </div>
     <!--Experience icons -->
     <div class="container" id="experience">
-      <h1 class="text-center pt-4 pb-5 underline extrabold">MI EXPERIENCIA</h1>
+      <h1 class="text-center pt-4 extrabold">MI EXPERIENCIA</h1>
+      <hr />
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <img
@@ -161,9 +170,10 @@
 
     <!--Portfolio-->
     <div class="bg-dark col-sm-12" id="portfolio">
-      <h1 class="text-center text-light extrabold pt-4 underlight px-5">
+      <h1 class="text-center text-light extrabold pt-5">
         MIS ULTIMOS TRABAJOS
       </h1>
+      <hr class="hr-white" />
       <div class="card-group pt-5">
         <div class="card mx-2 mb-5">
           <img
@@ -218,7 +228,7 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title font-weight-bold">Cuppon</h5>
+            <h5 class="card-title">Cuppon</h5>
             <p class="card-text">
               This card has supporting text below as a natural lead-in to
               additional content.
@@ -258,9 +268,8 @@
     <!--typeform-->
     <!--https://admin.typeform.com/form/E1GRCRlR/create-->
 
-    <h1 class="text-center pt-4 pb-5 underline extrabold" id="contact">
-      Contacto
-    </h1>
+    <h1 class="text-center pt-4 extrabold" id="contact">Contacto</h1>
+    <hr />
     <p class="text-center pt-5 font-weight-bold d-none d-md-block">
       ¿Quieres conocer mas de mi?
     </p>
@@ -295,45 +304,47 @@
       })();
     </script>
     <!--footer-->
-    <footer class="bg-dark text-light container-fluid">
+    <footer class="bg-dark text-light container-fluid py-4">
       <div class="row">
-        <div class="col-md-6 col-sm-12 text-center extrabold display-5">
+        <div
+          class="col-md-6 col-sm-12 extrabold display-5 d-flex align-items-center d-flex justify-content-center"
+        >
           <p>GASPAR</p>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center">
           <a href="https://github.com"
-            ><i class="fab fa-github-square fa-5x rrss"></i
+            ><i class="fab fa-github-square fa-3x rrss"></i
           ></a>
           <a href="https://twitter.com"
-            ><i class="fab fa-twitter-square fa-5x rrss"></i
+            ><i class="fab fa-twitter-square fa-3x rrss"></i
           ></a>
           <a href="https://www.linkedin.com"
-            ><i class="fab fa-linkedin fa-5x rrss"></i
+            ><i class="fab fa-linkedin fa-3x rrss"></i
           ></a>
           <a href="https://www.facebook.com"
-            ><i class="fab fa-facebook-square fa-5x rrss"></i
+            ><i class="fab fa-facebook-square fa-3x rrss"></i
           ></a>
         </div>
       </div>
     </footer>
     <!--JQ-->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
 
-    <!--Popper-->
+    <!--Popper JS 1.14.3-->
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
       crossorigin="anonymous"
     ></script>
 
-    <!--Bootstrap JS-->
+    <!--Bootstrap JS 4.2.1-->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
     <!--Mi script-->
