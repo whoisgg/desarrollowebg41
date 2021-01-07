@@ -10,7 +10,7 @@ body {
   font-weight: 700;
 }
 .font-weight-bold {
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 25pt;
 }
 
@@ -25,6 +25,7 @@ body {
 
 .sans {
   font-style: "Open Sans";
+  font-size: 22px;
 }
 .navbar ul {
   font-family: "Roboto"; /*No podia usar helvetica asi que la mas similar que encontre fue roboto*/
@@ -101,3 +102,9 @@ hr {
 .display-5 {
   font-size: 40px;
 }
+
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 8vw; /* 19px */
+  }
