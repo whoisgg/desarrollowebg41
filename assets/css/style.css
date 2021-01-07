@@ -1,15 +1,33 @@
 body {
   font-family: "Oswald", sans-serif;
 }
+.extralight {
+  font-weight: 1;
+  font-size: 2.2rem;
+  margin-top: 290px;
+}
+.extrabold {
+  font-weight: 700;
+}
+.font-weight-bold {
+  font-weight: 300;
+  font-size: 25pt;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
 .icon {
   font-size: 40px;
   font-weight: 600;
 }
-.cpurp {
-  background-color: #660066;
+
+.sans {
+  font-style: "Open Sans";
 }
 .navbar ul {
-  font-family: "Roboto";
+  font-family: "Roboto"; /*No podia usar helvetica asi que la mas similar que encontre fue roboto*/
 }
 #hero {
   margin-top: 4rem;
@@ -22,14 +40,36 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 }
-.extralight {
-  font-weight: 1;
-  font-size: 2.2rem;
-  margin-top: 290px;
-}
-.extrabold {
-  font-weight: 700;
-}
+
 .letterborder {
   -webkit-text-stroke: 2px black;
+}
+
+.line {
+  text-decoration: overline;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.underlight {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.rrss {
+  margin: 20px 10px;
+  color: white;
+}
+
+.card-group {
+  margin-left: 20%;
+  margin-right: 20%;
 }

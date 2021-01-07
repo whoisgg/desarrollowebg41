@@ -51,7 +51,7 @@
         >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#index">Sobre mi</a>
+              <a class="nav-link" href="#hero">Sobre mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experiencia</a>
@@ -68,12 +68,15 @@
     </nav>
 
     <!--1.Hero -->
+    <!--tuve que cambiar colores y generar borde como el fondo tenia blanco a diferencia del mockup-->
     <div class="container-fluid" id="hero">
       <div class="row">
         <div class="col-sm-12 px-0 background d-flex align-items-end">
           <div class="mx-auto">
             <p class="text-center display-1 text-light letterborder">YO SOY</p>
-            <p class="text-center display-1 text-light extrabold letterborder">
+            <p
+              class="text-center display-1 text-light extrabold letterborder line"
+            >
               GASPAR
             </p>
           </div>
@@ -81,36 +84,87 @@
       </div>
     </div>
     <!--Experience Hide text-->
-
-    <!--Experience icons -->
-    <div class="container">
-      <h1 class="text-center">MI EXPERIENCIA</h1>
-      <div>
-        <img
-          src="assets/img/logoese.png"
-          alt=""
-          height="180px"
-          class="rounded mx-auto d-block"
-        />
-        <p class="text-center">Master en Finanzas e Inversiones</p>
-        <p class="text-center">2016-2018</p>
+    <div class="container d-none d-sm-block">
+      <div class="row px-5 pb-5">
+        <div class="col-md-12 text-center sans font-weight-bold py-5">
+          <p class="py-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            mattis ante nulla. Donec in neque consectetur, ultrices justo eu,
+            hendrerit lectus.
+          </p>
+        </div>
+        <div class="col-md-6 text-left sans">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            voluptatibus suscipit quam deserunt cum labore aut corporis, et a
+            soluta nesciunt laboriosam qui debitis doloremque, enim expedita
+            repellendus. Magni, consequuntur! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Reiciendis facere vel, iusto molestiae
+            cupiditate et earum? Repudiandae reiciendis velit corrupti veniam.
+            Aspernatur eaque itaque eius suscipit, dolores numquam voluptates
+            quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quasi voluptatibus suscipit quam deserunt cum labore aut corporis,
+            et a soluta nesciunt laboriosam qui debitis doloremque, enim
+            expedita repellendus. Magni, consequuntur! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Reiciendis facere vel, iusto
+            molestiae cupiditate et earum? Repudiandae reiciendis velit corrupti
+            veniam.
+          </p>
+        </div>
+        <div class="col-md-6 text-left sans">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam
+            velit, ex repellat id facere maxime facilis hic odit impedit
+            nesciunt quidem necessitatibus minus ratione voluptatum aperiam
+            soluta molestiae beatae? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Excepturi, enim accusantium. Est laboriosam earum
+            omnis explicabo cumque nisi ipsam nostrum ab, accusamus alias esse
+            repellat! Facere commodi vero culpa harum! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Quasi voluptatibus suscipit quam
+            deserunt cum labore aut corporis, et a soluta nesciunt laboriosam
+            qui debitis doloremque, enim expedita repellendus. Magni,
+            consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Reiciendis facere vel, iusto molestiae cupiditate et earum?
+            Repudiandae reiciendis velit corrupti veniam.
+          </p>
+        </div>
       </div>
-      <div>
-        <img
-          src="assets/img/logopuc.png"
-          alt=""
-          height="180px"
-          class="rounded mx-auto d-block"
-        />
-        <p class="text-center">Ingeniero Agronomo</p>
-        <p class="text-center">2007-2012</p>
+    </div>
+    <!--Experience icons -->
+    <div class="container" id="experience">
+      <h1 class="text-center pt-4 pb-5 underline extrabold">MI EXPERIENCIA</h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img
+            src="assets/img/logoese.png"
+            alt=""
+            height="180px"
+            class="rounded mx-auto d-block"
+            style="margin-bottom: 17px"
+          />
+          <p class="text-center extrabold">Master en Finanzas e Inversiones</p>
+          <p class="text-center">2016-2018</p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img
+            src="assets/img/logopuc.png"
+            alt=""
+            height="180px"
+            class="rounded mx-auto d-block"
+            style="margin-bottom: 15px"
+          />
+          <p class="text-center extrabold">Ingeniero Agronomo</p>
+          <p class="text-center">2007-2012</p>
+        </div>
       </div>
     </div>
 
     <!--Portfolio-->
-    <div class="bg-dark col-sm-12">
-      <h1 class="text-center text-light extrabold">MIS ULTIMOS TRABAJOS</h1>
-      <div class="card-group px-5 pt-5">
+    <div class="bg-dark col-sm-12" id="portfolio">
+      <h1 class="text-center text-light extrabold pt-4 underlight px-5">
+        MIS ULTIMOS TRABAJOS
+      </h1>
+      <div class="card-group pt-5">
         <div class="card mx-2 mb-5">
           <img
             class="card-img-top"
@@ -118,11 +172,10 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Meet&Coffe</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
@@ -133,7 +186,7 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Iguana Page</h5>
             <p class="card-text">
               This card has supporting text below as a natural lead-in to
               additional content.
@@ -147,17 +200,16 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Suricata</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="card-group px-5 pb-5 pt-0">
+      <div class="card-group pb-5 pt-0">
         <!--sgundo deck-->
         <div class="card mx-2 mb-5">
           <img
@@ -166,11 +218,10 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title font-weight-bold">Cuppon</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
@@ -181,7 +232,7 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Ricomida</h5>
             <p class="card-text">
               This card has supporting text below as a natural lead-in to
               additional content.
@@ -195,11 +246,10 @@
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Dmark</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
@@ -207,10 +257,21 @@
     </div>
     <!--typeform-->
     <!--https://admin.typeform.com/form/E1GRCRlR/create-->
+
+    <h1 class="text-center pt-4 pb-5 underline extrabold" id="contact">
+      Contacto
+    </h1>
+    <p class="text-center pt-5 font-weight-bold d-none d-md-block">
+      ¿Quieres conocer mas de mi?
+    </p>
+    <p class="text-center pt-5 .d-none d-sm-block d-md-none">
+      Escribe tu pregunta acá
+    </p>
+
     <div
       class="typeform-widget"
       data-url="https://form.typeform.com/to/E1GRCRlR?typeform-medium=embed-snippet"
-      style="width: 100%; height: 500px"
+      style="width: 100%; height: 300px"
     ></div>
     <script>
       (function () {
@@ -234,6 +295,27 @@
       })();
     </script>
     <!--footer-->
+    <footer class="bg-dark text-light container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 text-center extrabold display-5">
+          <p>GASPAR</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a href="https://github.com"
+            ><i class="fab fa-github-square fa-5x rrss"></i
+          ></a>
+          <a href="https://twitter.com"
+            ><i class="fab fa-twitter-square fa-5x rrss"></i
+          ></a>
+          <a href="https://www.linkedin.com"
+            ><i class="fab fa-linkedin fa-5x rrss"></i
+          ></a>
+          <a href="https://www.facebook.com"
+            ><i class="fab fa-facebook-square fa-5x rrss"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
     <!--JQ-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
